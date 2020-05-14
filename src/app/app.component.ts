@@ -24,7 +24,7 @@ export class AppComponent implements OnInit {
         highlightBorderColor: '#bada55',
         popupTemplate: function (geography, data) {
           return '<div class="hoverinfo">' + geography.properties.name +
-            ' Loss Ratio:' + data.lossRatio + ' Claims: ' + data.claims + ' Premiums: ' + data.premiums + '</div>'
+            ' votes:' + data.votes + '</div>'
         },
         highlightBorderWidth: 3
       },
@@ -41,205 +41,203 @@ export class AppComponent implements OnInit {
       data: {
         "AZ": {
           "fillKey": "Republican",
-          "lossRatio": 5,
-          "claims": 100,
-          "premiums": 150
+          "votes": 5
         },
         "CO": {
           "fillKey": "Light Democrat",
-          "lossRatio": 5
+          "votes": 5
         },
         "DE": {
           "fillKey": "Democrat",
-          "lossRatio": 32
+          "votes": 32
         },
         "FL": {
           "fillKey": "UNDECIDED",
-          "lossRatio": 29
+          "votes": 29
         },
         "GA": {
           "fillKey": "Republican",
-          "lossRatio": 32
+          "votes": 32
         },
         "HI": {
           "fillKey": "Democrat",
-          "lossRatio": 32
+          "votes": 32
         },
         "ID": {
           "fillKey": "Republican",
-          "lossRatio": 32
+          "votes": 32
         },
         "IL": {
           "fillKey": "Democrat",
-          "lossRatio": 32
+          "votes": 32
         },
         "IN": {
           "fillKey": "Republican",
-          "lossRatio": 11
+          "votes": 11
         },
         "IA": {
           "fillKey": "Light Democrat",
-          "lossRatio": 11
+          "votes": 11
         },
         "KS": {
           "fillKey": "Republican",
-          "lossRatio": 32
+          "votes": 32
         },
         "KY": {
           "fillKey": "Republican",
-          "lossRatio": 32
+          "votes": 32
         },
         "LA": {
           "fillKey": "Republican",
-          "lossRatio": 32
+          "votes": 32
         },
         "MD": {
           "fillKey": "Democrat",
-          "lossRatio": 32
+          "votes": 32
         },
         "ME": {
           "fillKey": "Democrat",
-          "lossRatio": 32
+          "votes": 32
         },
         "MA": {
           "fillKey": "Democrat",
-          "lossRatio": 32
+          "votes": 32
         },
         "MN": {
           "fillKey": "Democrat",
-          "lossRatio": 32
+          "votes": 32
         },
         "MI": {
           "fillKey": "Democrat",
-          "lossRatio": 32
+          "votes": 32
         },
         "MS": {
           "fillKey": "Republican",
-          "lossRatio": 32
+          "votes": 32
         },
         "MO": {
           "fillKey": "Republican",
-          "lossRatio": 13
+          "votes": 13
         },
         "MT": {
           "fillKey": "Republican",
-          "lossRatio": 32
+          "votes": 32
         },
         "NC": {
           "fillKey": "Light Republican",
-          "lossRatio": 32
+          "votes": 32
         },
         "NE": {
           "fillKey": "Republican",
-          "lossRatio": 32
+          "votes": 32
         },
         "NV": {
           "fillKey": "Heavy Democrat",
-          "lossRatio": 32
+          "votes": 32
         },
         "NH": {
           "fillKey": "Light Democrat",
-          "lossRatio": 32
+          "votes": 32
         },
         "NJ": {
           "fillKey": "Democrat",
-          "lossRatio": 32
+          "votes": 32
         },
         "NY": {
           "fillKey": "Democrat",
-          "lossRatio": 32
+          "votes": 32
         },
         "ND": {
           "fillKey": "Republican",
-          "lossRatio": 32
+          "votes": 32
         },
         "NM": {
           "fillKey": "Democrat",
-          "lossRatio": 32
+          "votes": 32
         },
         "OH": {
           "fillKey": "UNDECIDED",
-          "lossRatio": 32
+          "votes": 32
         },
         "OK": {
           "fillKey": "Republican",
-          "lossRatio": 32
+          "votes": 32
         },
         "OR": {
           "fillKey": "Democrat",
-          "lossRatio": 32
+          "votes": 32
         },
         "PA": {
           "fillKey": "Democrat",
-          "lossRatio": 32
+          "votes": 32
         },
         "RI": {
           "fillKey": "Democrat",
-          "lossRatio": 32
+          "votes": 32
         },
         "SC": {
           "fillKey": "Republican",
-          "lossRatio": 32
+          "votes": 32
         },
         "SD": {
           "fillKey": "Republican",
-          "lossRatio": 32
+          "votes": 32
         },
         "TN": {
           "fillKey": "Republican",
-          "lossRatio": 32
+          "votes": 32
         },
         "TX": {
           "fillKey": "Republican",
-          "lossRatio": 32
+          "votes": 32
         },
         "UT": {
           "fillKey": "Republican",
-          "lossRatio": 32
+          "votes": 32
         },
         "WI": {
           "fillKey": "Democrat",
-          "lossRatio": 32
+          "votes": 32
         },
         "VA": {
           "fillKey": "Light Democrat",
-          "lossRatio": 32
+          "votes": 32
         },
         "VT": {
           "fillKey": "Democrat",
-          "lossRatio": 32
+          "votes": 32
         },
         "WA": {
           "fillKey": "Democrat",
-          "lossRatio": 32
+          "votes": 32
         },
         "WV": {
           "fillKey": "Republican",
-          "lossRatio": 32
+          "votes": 32
         },
         "WY": {
           "fillKey": "Republican",
-          "lossRatio": 32
+          "votes": 32
         },
         "CA": {
           "fillKey": "Democrat",
-          "lossRatio": 32
+          "votes": 32
         },
         "CT": {
           "fillKey": "Democrat",
-          "lossRatio": 32
+          "votes": 32
         },
         "AK": {
           "fillKey": "Republican",
-          "lossRatio": 32
+          "votes": 32
         },
         "AR": {
           "fillKey": "Republican",
-          "lossRatio": 32
+          "votes": 32
         },
         "AL": {
           "fillKey": "Republican",
-          "lossRatio": 32
+          "votes": 32
         }
       }
     });
